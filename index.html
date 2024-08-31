@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Tunados</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Carros Tunados</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Modelos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="bg-light p-3 rounded">
+                    <h2>O que são Carros Tunados?</h2>
+                    <p>Carros tunados são veículos que foram modificados esteticamente e/ou mecanicamente para melhorar seu desempenho e aparência. O tuning pode incluir melhorias no motor, suspensão, sistema de escapamento, e detalhes visuais como pintura e adesivos.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="bg-light p-3 rounded">
+                    <h2>Tipos de Modificações</h2>
+                    <p>As modificações mais comuns incluem alterações na suspensão, instalação de spoilers, personalização de rodas, e upgrades no sistema de som. Cada tipo de modificação pode ter um impacto diferente no desempenho e na estética do carro.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="bg-light p-3 rounded">
+                    <h2>Galeria de Carros Tunados</h2>
+                    <p>Confira nossa galeria para ver alguns dos carros tunados mais impressionantes. Veja como diferentes estilos e modificações podem transformar um carro comum em uma máquina de alto desempenho.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; <span id="year"></span> Carros Tunados. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Script para atualizar o ano atual no rodapé -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
